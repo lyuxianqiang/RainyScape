@@ -14,7 +14,18 @@ After get the dataset, put the dataset into ```data``` folder.
 
 ## NeRF Rendering
 
-To train and test the NeRF model, use the following command:
+### Setting
+
+Install the environment.
+```
+cd RainyScape-NeRF
+pip install -r requirements.txt
+```
+
+Changing the data path and log path in the ```configs/Yard_deraining_unsup.txt```
+
+### Training
+To train and test the RainyScape-NeRF model, use the following command:
 
 ```
 CUDA_VISIBLE_DEVICES=0 python torch_nerf_rainyscape.py --config configs/Yard_deraining_unsup.txt
