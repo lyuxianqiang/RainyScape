@@ -17,7 +17,7 @@ After get the dataset, put the dataset into ```data``` folder.
 To train and test the NeRF model, use the following command:
 
 ```
-CUDA_VISIBLE_DEVICES=0 python torch_nerf_rainyscape.py --config configs/Crossroad_deraining_unsup.txt
+CUDA_VISIBLE_DEVICES=0 python torch_nerf_rainyscape.py --config configs/Yard_deraining_unsup.txt
 ```
 
 ## 3DGS Rendering
@@ -27,7 +27,7 @@ Before running the 3DGS rendering, make sure to configure the basic environment 
 Once the environment is configured, you can run the rendering with:
 
 ```
-CUDA_VISIBLE_DEVICES=0 python torch_diffnerf_derain_rgbfeature_v0308.py --config configs/scene01_deraining_unsup_ver1.txt
+CUDA_VISIBLE_DEVICES=0 python torch_diffnerf_derain_rgbfeature_v0308.py --config configs/Yard_deraining_unsup.txt
 ```
 
 # Acknowledgments
