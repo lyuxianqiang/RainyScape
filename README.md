@@ -33,12 +33,19 @@ CUDA_VISIBLE_DEVICES=0 python torch_nerf_rainyscape.py --config configs/Yard_der
 
 ## 3DGS Rendering
 
+### Setting
+
+Install the environment.
 Before running the 3DGS rendering, make sure to configure the basic environment for 3DGS. Refer to the official [3DGS project page](https://github.com/graphdeco-inria/gaussian-splatting) for the setup instructions.
+
+Convert the dataset by COLMAP for 3DGS input.
+
+### Training
 
 Once the environment is configured, you can run the rendering with:
 
 ```
-CUDA_VISIBLE_DEVICES=0 python torch_diffnerf_derain_rgbfeature_v0308.py --config configs/Yard_deraining_unsup.txt
+CUDA_VISIBLE_DEVICES=0 python torch_3dgs_rainyscape.py -s data/Yard/
 ```
 
 # Acknowledgments
