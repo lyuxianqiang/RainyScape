@@ -50,6 +50,20 @@ CUDA_VISIBLE_DEVICES=0 python torch_3dgs_rainyscape.py -s data/Yard/
 
 # Acknowledgments
 
+If you use the code or the dataset in you own paper, please cite
+
+   ```sh
+@misc{lyu2024rainyscapeunsupervisedrainyscene,
+      title={RainyScape: Unsupervised Rainy Scene Reconstruction using Decoupled Neural Rendering}, 
+      author={Xianqiang Lyu and Hui Liu and Junhui Hou},
+      year={2024},
+      eprint={2404.11401},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2404.11401}, 
+}
+   ```
+
 This project is based on the following implementations:
 
 - The pytorch implementation of NeRF: https://github.com/yenchenlin/nerf-pytorch
