@@ -1,5 +1,5 @@
 # RainyScape
-Code for 'RainyScape: Unsupervised Rainy Scene Reconstruction using Decoupled Neural Rendering'
+Code for ACM MM'24 paper: 'RainyScape: Unsupervised Rainy Scene Reconstruction using Decoupled Neural Rendering'
 
 
 # Get the RainyScape_dataset
