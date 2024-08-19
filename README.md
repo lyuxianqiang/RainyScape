@@ -48,6 +48,13 @@ Once the environment is configured, you can run the rendering with:
 CUDA_VISIBLE_DEVICES=0 python torch_3dgs_rainyscape.py -s data/Yard/
 ```
 
+### RainyScape for NeRF rendering
+<img src='./Video/RSnerf.gif' width='230'>
+
+### RainyScape for 3DGS rendering
+<img src='./Video/RS3dgs.gif' width='230'>
+
+
 # Acknowledgments
 
 If you use the code or the dataset in you own paper, please cite
